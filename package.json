@@ -7,7 +7,7 @@
     "lint": "eslint .",
     "start": "react-native start",
     "ios": "react-native run-ios --udid 49C3C6CA-418C-412F-81E6-9CF3DFD04E9C",
-    "real-ios": "react-native run-ios --udid 00008110-001855161A63801E",
+    "real-ios": "react-native run-ios --udid deviceId",
     "debugger": "npx react-native start --experimental-debugger",
     "test": "jest"
   },
