@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+  --color-text-primary: red;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text-primary: red;
+  }
+}
